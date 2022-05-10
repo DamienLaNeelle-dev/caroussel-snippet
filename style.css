@@ -2,32 +2,120 @@ li{
     list-style: none;
     display: flex;
     align-items: center;
-}
-
-.liste img{
+    height: 50px;
+    width: 150px
+  }
+  
+  .liste img{
     width: 50px;
     margin-top: 0px;
     margin-right: 100px;
-
-}
-
-
-.caroussel{
+  
+  }
+  
+  .caroussel{
     display: flex;
     justify-content: center;
-}
-
-.liste{
+  }
+  
+  .liste{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     color: rgb(155, 155, 155);
     margin-top: 25px;
-}
-
-.vertical-line{
+  }
+  
+  .vertical-line{
     border-left: 2px solid rgb(155, 155, 155);
     display: inline-block;
     height: 350px;
-    margin: 0 20px 0 150px;
+    margin: 25px 20px 0 0px;
   }
+  
+  .presentation{
+      background-image: url(./images/003-man-user.png);
+      background-size: 50px;
+      background-position: left;
+      background-repeat:no-repeat;
+      padding: 10px 0 10px 150px;
+      border-right: 5px solid transparent;
+  }
+  
+  .presentation:hover{
+    background-image: url(./images/003-man-user2.png);
+    background-color: rgba(0, 36, 255, 0.2);
+    background-repeat:no-repeat;
+    transition: all 0.7s;
+    border-right: 5px solid rgba(0, 36, 255);
+    
+  }
+  
+  .competences{
+    background-image: url(./images/002-skills.png);
+    background-size: 50px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 150px;
+    border-right: 5px solid transparent;
+  }
+  
+  .competences:hover{
+    background-image: url(./images/002-skills2.png);
+    background-color: rgba(72, 142, 51, 0.2);
+    background-repeat:no-repeat;
+    transition: all 0.7s;
+    border-right: 5px solid rgba(72, 142, 51);
+  }
+  
+  .exp_pro{
+    background-image: url(./images/004-briefcase.png);
+    background-size: 50px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 150px;
+    border-right: 5px solid transparent;
+  }
+  
+  .exp_pro:hover{
+    background-image: url(./images/004-briefcase2.png);
+    background-color: rgba(250, 232, 30, 0.2);
+    background-repeat:no-repeat;
+    transition: all 0.7s;
+    border-right: 5px solid rgba(250, 232, 30);
+  }
+  
+  .formation{
+    background-image: url(./images/001-graduation.png);
+    background-size: 50px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 150px;
+    border-right: 5px solid transparent;
+  }
+  
+  .formation:hover{
+    background-image: url(./images/001-graduation2.png);
+    background-color: rgba(235, 21, 26, 0.2);
+    background-repeat:no-repeat;
+    transition: all 0.7s;
+    border-right: 5px solid rgba(235, 21, 26);
+  }
+  
+  .loisirs{
+    background-image: url(./images/005-lotus.png);
+    background-size: 50px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 150px;
+    border-right: 5px solid transparent;
+  }
+  
+  .loisirs:hover{
+    background-image: url(./images/005-lotus2.png);
+    background-color: rgba(109, 211, 188, 0.2);
+    background-repeat:no-repeat;
+    transition: all 0.7s;
+    border-right: 5px solid rgba(109, 211, 188);
+  }
+  
