@@ -1,0 +1,33 @@
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.liste img{
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 100px;
+
+}
+
+
+.caroussel{
+    display: flex;
+    justify-content: center;
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(155, 155, 155);
+    margin-top: 25px;
+}
+
+.vertical-line{
+    border-left: 2px solid rgb(155, 155, 155);
+    display: inline-block;
+    height: 350px;
+    margin: 0 20px 0 150px;
+  }
