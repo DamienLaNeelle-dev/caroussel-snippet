@@ -31,3 +31,8 @@ li{
     height: 350px;
     margin: 0 20px 0 150px;
   }
+
+.presentation:hover{
+    background-image: url(./images/003-man-user2.png);
+    background-color: rgba(0, 36, 255, 0.5);
+  }
